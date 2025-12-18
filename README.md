@@ -17,6 +17,15 @@ Repackage EPUBs into standards-compliant files so they are recognized and import
 6. Run the script: `bash repack_epubs.sh tmp/my-epubs`
 7. Get results: `tmp/my-epubs/fixed_epubs/` (repaired) and `tmp/my-epubs/original_epubs/` (backups). Import from `fixed_epubs/`.
 
+## How to run the script
+
+- **Simple mode:**
+  `bash repack_epubs.sh [path]`
+  (Defaults to current folder. Example: `bash repack_epubs.sh tmp/my-epubs`.)
+- **Verbose mode:**
+  `bash repack_epubs.sh -v [path]`
+  (Shows each file as it’s processed.)
+
 ## What it does
 
 - Takes your books (either `.epub` files or the “folder” kind) and rebuilds them correctly.
