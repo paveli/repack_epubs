@@ -2,6 +2,8 @@
 
 Repackage EPUBs into standards-compliant files so they are recognized and import cleanly in Calibre and other readers.
 
+> Convert your Apple Books EPUBs into a standard format ready for Calibre, Kindle, Kobo, Boox, and other e-readers.
+
 ## Why
 
 - Some EPUBs refuse to open or import because their internal zip order is wrong (the tiny `mimetype` file must be first and uncompressed).
